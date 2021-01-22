@@ -1,0 +1,121 @@
+html {
+    background-image:url("resources/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left:10%;
+    margin-right:10%;
+    color:black;
+  }
+  .shadow {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+  }
+
+ /* GRID */
+ body {
+    display:grid;
+    grid-template-areas:
+    "header header header"
+    "sidenav article article"
+    "footer footer footer";
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows:1fr 3fr 1fr;
+    grid-row-gap:10px;
+    height:100vh;
+    margin:0;
+}
+
+#header {grid-area:header;}
+#footer {grid-area:footer;}
+#sidenav{grid-area:sidenav; margin-top:15px;}
+#article {grid-area:article;} 
+
+/* HEADER  */
+header,footer, .navbar {
+  background-color:rgba(255,255,255,0.5);
+  text-align:center;
+}
+  
+header>p {
+   padding:20px;
+}
+  
+.navbar {
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+  
+.navbar>a {
+   margin:10px;
+}
+  
+a:hover {
+   transform:scale(1.1);
+   color:hotpink;
+}
+
+ .fa {
+   padding: 12px;
+   margin:10px;
+   font-size: 15px;
+   height:20px;
+   width: 20px;
+   text-align: center;
+   border-radius: 50%;
+   border:2px solid hotpink;
+   background: #F9D0BE;
+   color: hotpink;
+}
+.fa-arrow-up {
+    position:fixed;
+    height:50px;
+    width:50px;
+    left:3%;
+    top:5%;
+  }
+.fa:hover {
+    opacity:0.7;
+    transform: scale(1.1); 
+}
+
+/* SIDENAV */
+#sidenav>a {
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    margin:5px;
+}
+
+/* ARTICLE */
+#article>p {
+    background-color: #F4E6CB;
+    margin:20px;
+    padding:20px;
+}
+
+/* FOOTER */
+footer > div {
+	display:flex;
+	justify-content:center;
+	margin:5px;
+	padding:5px;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+      max-width:100%;
+      margin-left:0;
+      margin-right:0;
+    }
+  
+    .fa-arrow-up {
+      position:fixed;
+      left:2%;
+      top:80%;
+    }
+}
