@@ -16,9 +16,9 @@ Aim:
 2) To find my target audience categorize them into needing bootstrap versus needing css
 
 Objectives: 
-1) Implement at least a simple database in the portfolio
-2) Implement at least one advanced multimedia component (3D rendering and live animation)
-3) Take advantage of at least a jQuery / bootstrap or any framework / library in at least one page
+1) Find out what it takes to come up with a fully-functional e-commerce website (browse, compare, choose, checkout)
+2) Find out what it takes to come up with a fully-customized interactive website (with advanced multimedia components)
+3)
 
 Conclusion:
 < will update conclusion after finishing my project >
