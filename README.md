@@ -1,5 +1,5 @@
 # ycPortfolio
-Topic:
+Research Topic:
 Libraries and frameworks
 
 Problem statement: 
@@ -12,15 +12,13 @@ Hypothesis:
 No. Frameworks and libraries works by providing a fixed layout / functionality which may suit the general website needs, such as e-commerce and social sites. However , for a certain niche which require a lot of customization, such as the entertainment or creative industry, will need designs and functions that is not available in frameworks and libraries. 
 
 Aim:
-- I seek to challenge my front-end skill and make my website as non-bootstrap-looking as possible. 
-- To find my target audience categorize them into needing bootstrap versus needing css
+1) I seek to challenge my front-end skill and make my website as non-bootstrap-looking as possible 
+2) To find my target audience categorize them into needing bootstrap versus needing css
 
 Objectives: 
-1) landing page for a self-introduction
-2) Categorize and showcase all the Adobe, frontend, and backend projects that I've done
-3) Implement at least a simple database in the portfolio
-4) Implement at least one advanced multimedia component (3D rendering and live animation, interactive)
-5) Take advantage of at least a jQuery / bootstrap or any framework / library in at least one page
+1) Implement at least a simple database in the portfolio
+2) Implement at least one advanced multimedia component (3D rendering and live animation)
+3) Take advantage of at least a jQuery / bootstrap or any framework / library in at least one page
 
 Conclusion:
 < will update conclusion after finishing my project >
