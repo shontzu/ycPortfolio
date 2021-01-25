@@ -1,12 +1,12 @@
 # ycPortfolio
-##Research Topic:
+## Research Topic:
 Libraries and frameworks in frontend web dev
 
-##Introduction and Overview:
+## Introduction and Overview:
 1.
 2.
 
-##Problem statement: 
+## Problem statement: 
 Nowadays, websites all look alike and are boring and predictable due to the existence of bootstrap. I am not against bootstrap. I think bootstrap is a life-saver for back-end programmers who are weak in design and hence they are a necessity. However, people are killing creativity by using it as a crutch in frontend web dev.
 
 ##Research Question: 
