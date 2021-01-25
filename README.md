@@ -34,8 +34,10 @@ Frameworks and libraries work by providing a fixed layout/functionality which ma
 3. Compare how many deliverables are met in a fixed duration of time (i.e. 2 hours) using frameworks versus not using them
 
 ### Project Requirement:
-1. 
-2.
+1. Intermediate to advanced understanding of multimedia components 
+2. Intermediate to advanced understanding of web-app development
+3. Multimedia tools such as Photoshop, Illustrator, After Effects, 3D Max, etc.
+4. Web development IDE such as Netbeans, Visual Studio 2019, Visual Studio Code
 
 ### Project Plan:
 1.
