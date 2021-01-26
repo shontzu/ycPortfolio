@@ -1,6 +1,6 @@
 # ycPortfolio
 ### Research Topic:
-Libraries and frameworks in frontend web dev
+Frameworks and vanilla css in frontend web dev
 
 ### Introduction and Overview:
 1.
