@@ -28,6 +28,7 @@ a {
 header,footer, .navbar, .personality {
   background-color:rgba(255,255,255,0.3);
   text-align:center;
+  box-shadow: 2px 2px 2px gray;
 }
 
 header>p {
@@ -50,6 +51,11 @@ a:hover {
   color:hotpink;
 }
 
+a>img:hover{
+  transform:scale(1.005);
+  box-shadow: 2px 2px 2px gray;
+}
+
 .fa {
   padding: 12px;
   margin:10px;
@@ -61,6 +67,7 @@ a:hover {
   border:2px solid hotpink;
   background: #F9D0BE;
   color: hotpink;
+  box-shadow:  2px 2px 2px gray;
 }
 .fa-arrow-up {
   position:fixed;
@@ -71,7 +78,8 @@ a:hover {
 }
 .fa:hover {
 	opacity:0.7;
-	transform: scale(1.1); 
+  transform: scale(1.1); 
+  box-shadow: inset 2px 2px 2px gray;
 }
 
 .photo-collage {
@@ -129,14 +137,15 @@ legend {
   transform: scale(1.1);
 }
 
-.appreciation {
-  background-color: #F4E6CB;
-  text-align:justify;
+fieldset {
+  background-color: rgba(244, 230, 203, 0.5);
+  border:none;
+  box-shadow: 2px 2px 2px gray;
 }
 
 /* FOOTER */
 footer > div {
-	display:flex;
+  display:flex;
 	justify-content:center;
 	margin:5px;
 	padding:5px;
@@ -147,7 +156,7 @@ footer > div {
 }
 
 /* RESPONSIVE STYLING */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   html {
     max-width:100%;
     margin-left:0;
