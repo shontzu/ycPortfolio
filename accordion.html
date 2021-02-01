@@ -1,0 +1,72 @@
+<html>
+<style>
+	.accordion {
+		width:100%;
+		display: flex;
+		flex: column;
+	}
+
+	.accordionContent {
+		padding: 0 18px;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+	}
+</style>
+
+<body>
+	<a href="https://shontzu.github.io/Snakes-and-Ladders/"><img src="resources/game.JPG" alt="Snakes and Ladders Game" width="500"></a>
+	<button class="accordion">
+		<h2>Snakes and Ladders Game</h2>
+	</button>
+	<div class="accordionContent">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam repudiandae necessitatibus quo
+			ipsum, eos voluptas soluta excepturi autem. Totam.</p>
+	</div>
+
+	<a href="https://shontzu.github.io/IMS-CW/devInfo.html"><img src="resources/promoPage.JPG" alt="Random company promo page" width="500"></a>
+	<button class="accordion">
+		<h2>Random company promo page</h2>
+	</button>
+	<div class="accordionContent">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero fuga ratione animi. Esse debitis tempore
+			laudantium vitae, eos impedit.</p>
+	</div>
+
+	<img src="resources/touristGuide.JPG" alt="Visiting Liverpool website" width="90%">
+	<button class="accordion">
+		<h2>Tourist Guide website</h2>
+	</button>
+	<div class="accordionContent">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero fuga ratione animi. Esse debitis tempore
+			laudantium vitae, eos impedit.</p>
+	</div>
+
+	<img src="resources/Thermometer.JPG" alt="Infrared Thermometer website" width="500">
+	<button class="accordion">
+		<h2>Infrared Thermometer site</h2>
+	</button>
+	<div class="accordionContent">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero fuga ratione animi. Esse debitis tempore
+			laudantium vitae, eos impedit.</p>
+	</div>
+</body>
+
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function () {
+
+			var accordionContent = this.nextElementSibling;
+			if (accordionContent.style.display === "block") {
+				accordionContent.style.display = "none";
+			} else {
+				accordionContent.style.display = "block";
+			}
+		});
+	}
+</script>
+
+</html>

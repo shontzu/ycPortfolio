@@ -23,25 +23,27 @@
         <legend>
             <h2>Front End Projects</h2>
         </legend>
-        <h2>Snakes and Ladders Game</h2>
-        <a href="https://shontzu.github.io/Snakes-and-Ladders/"><img src="resources/game.JPG"
-                alt="Snakes and Ladders Game" width="500"></a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam repudiandae necessitatibus quo
-            ipsum, eos voluptas soluta excepturi autem. Totam.</p>
-        <hr>
-        <h2>Random company promo page</h2>
-        <a href="https://shontzu.github.io/IMS-CW/devInfo.html"><img src="resources/promoPage.JPG"
-                alt="Random company promo page" width="500"></a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero fuga ratione animi. Esse debitis tempore laudantium vitae, eos impedit.</p>
-        <hr>
-        <h2>Tourist Guide website</h2>
-        <img src="resources/touristGuide.JPG" alt="Visiting Liverpool website" width="90%">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero fuga ratione animi. Esse debitis tempore
-            laudantium vitae, eos impedit.</p>
-        <hr>
-        <h2>Infrared Thermometer site</h2>
-        <img src="resources/Thermometer.JPG" alt="Infrared Thermometer website" width="500">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero fuga ratione animi. Esse debitis tempore laudantium vitae, eos impedit.</p>
+        <br>
+            <img src="resources/game2.JPG" alt="Snakes and Ladders Game">
+            <button class="accordion"><h2>Snakes and Ladders Game&#9660;</h2></button>
+            <p class="accordionContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum iure reiciendis cupiditate dolores eaque libero nemo quibusdam, earum minus numquam, quisquam iste ea, aut modi porro expedita asperiores voluptatibus possimus voluptates quasi non minima ipsam eos amet. Quam adipisci veritatis, eum ducimus iste saepe? Facilis eius impedit vitae rem fugiat!
+                <br><a href="https://shontzu.github.io/Snakes-and-Ladders/" target="blank">Click to preview game</a>
+                | <a href="https://github.com/shontzu/Snakes-and-Ladders" target="blank">Source code here!</a></p>
+        <br>
+            <img src="resources/promoPage.JPG" alt="Random company promo page">
+            <button class="accordion"><h2>Random company promo page&#9660;</h2></button>
+            <p class="accordionContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dicta delectus est, ipsum explicabo corporis sit commodi aperiam veritatis molestiae, quos placeat voluptas vitae numquam minus atque? Nulla blanditiis ducimus odit asperiores quaerat, praesentium repellendus! Vel necessitatibus sunt eius ipsam impedit laborum nostrum excepturi nisi perferendis quos. Accusamus, facilis similique!
+                <br><a href="https://shontzu.github.io/IMS-CW/devInfo.html">Click to preview website</a>
+                | <a href="https://github.com/shontzu/IMS-CW">Source code here!</a></p>
+        <br>
+            <img src="resources/touristGuide.JPG" alt="Visiting Liverpool website">
+            <button class="accordion"><h2>Tourist Guide website&#9660;</h2></button>
+            <p class="accordionContent">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, consequuntur culpa alias suscipit maiores eligendi, facere quod quasi quas facilis explicabo quisquam. Consectetur quasi, atque animi debitis modi asperiores dignissimos ratione ut nam iusto quis officiis expedita repellat necessitatibus aliquam.</p>
+        <br>
+            <img src="resources/Thermometer.JPG" alt="Infrared Thermometer website">
+            <button class="accordion"><h2>Infrared Thermometer site&#9660;</h2></button>
+            <p class="accordionContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt nihil rem, accusamus doloremque corporis vitae assumenda ipsum, nisi omnis adipisci molestias iste quaerat ducimus eligendi saepe veritatis error perferendis sed ex dolorem consectetur harum. Qui quia nisi ab impedit eum dolorum, et debitis eaque dolore incidunt labore quo ut!</p>
+        <br>
     </fieldset>
 
     <footer>
@@ -58,4 +60,20 @@
         <footer>
 </body>
 
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function () {
+
+			var accordionContent = this.nextElementSibling;
+			if (accordionContent.style.display === "block") {
+				accordionContent.style.display = "none";
+			} else {
+				accordionContent.style.display = "block";
+			}
+		});
+	}
+</script>
 </html>

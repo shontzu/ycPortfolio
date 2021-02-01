@@ -10,12 +10,7 @@ html {
   margin-left:10%;
   margin-right:10%;
 }
-/* for full-screen display
-body{
-  width:100%;
-  margin:0;
-}
-*/
+
 .shadow {
   box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 }
@@ -47,13 +42,8 @@ header>p {
   margin:10px;
 }
 a:hover {
-  transform:scale(1.1);
+  transform:scale(1.04);
   color:hotpink;
-}
-
-a>img:hover{
-  transform:scale(1.005);
-  box-shadow: 2px 2px 2px gray;
 }
 
 .fa {
@@ -141,6 +131,35 @@ fieldset {
   background-color: rgba(244, 230, 203, 0.5);
   border:none;
   box-shadow: 2px 2px 2px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FRONTEND PROJECT PAGE */
+.accordion {
+  width:100%;
+  display: flex;
+  flex: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none; 
+  display: inline-block;
+  text-align: center; 
+}
+.accordion:focus { outline: none; }
+
+.accordionContent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+ 
+}
+
+fieldset>img{
+  max-width:100%;
+  display:flex;
+  flex-direction: row;
 }
 
 /* FOOTER */
@@ -157,7 +176,7 @@ footer > div {
 
 /* RESPONSIVE STYLING */
 @media only screen and (max-width: 1000px) {
-  html {
+  html, img {
     max-width:100%;
     margin-left:0;
     margin-right:0;
