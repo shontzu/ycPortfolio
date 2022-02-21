@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="design.css" />
+    <title>Web projects</title>
+    <style>
+        html {
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            margin: 0;
+            display: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            overflow: hidden;
+        }
+
+
+        table {
+            width: 100%;
+            text-align: left;
+        }
+
+        th {
+            width: 30%;
+            text-align: right;
+            padding-right: 5%;
+        }
+
+        tr {
+            line-height: 1.5rem;
+            border-bottom: 1px solid black;
+
+        }
+
+        img {
+            max-width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        @media only screen and (max-width: 600px) {
+            html {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html">About Me</a>
+            <a href="MultimediaProject.html">Multimedia projects</a>
+            <a href="WebProject.html">Web projects</a>
+            <!-- <a href="Backend projects.html">Backend Projects</a> -->
+        </div>
+    </header>
+
+    <h1>Great Kids Show</h1>
+    <img src="resources/Thumbnail-GKS.JPG" alt="Great Kids Show">
+    <button class="accordion">
+        <i>Details&#9660;</i>
+    </button>
+    <table class="panel">
+        <tr>
+            <th>Type</th>
+            <td>Static / Semi-MVC</td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Academic Assignment</td>
+        </tr>
+        <tr>
+            <th>Developers</th>
+            <td>Group, 5pax</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>Semi-MVC cartoon / entertainment website for children under 6 years old with Vue3 Composition API</td>
+        </tr>
+        <tr>
+            <th>Technologies</th>
+            <td>Vue3, Bootstrap Vue, Adobe tools (Illustrator, After Effects, PremierePro, Animate)</td>
+        </tr>
+        <tr>
+            <th>Live Preview</th>
+            <td><a href="https://greatkidshow.netlify.app/" target="blank">see</a></td>
+        </tr>
+        <tr>
+            <th>Source Code</th>
+            <td><a href="https://github.com/yuuchin/GreatKidsShow" target="blank">see</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h1>Kanban-style todo</h1>
+    <img src="resources/Thumbnail-Todos.PNG" alt="Kanban-style Todo">
+    <button class="accordion">
+        <i>Details&#9660;</i>
+    </button>
+    <table class="panel">
+        <tr>
+            <th>Type</th>
+            <td>CRUD</td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Personal project</td>
+        </tr>
+        <tr>
+            <th>Developers</th>
+            <td>Individual</td>
+        </tr>
+        <tr>
+            <th>Description </th>
+            <td>Kanban-style todo tracker with Vue.js and Firestore DB hosted on Firebase</td>
+        </tr>
+        <tr>
+            <th>Live Preview</th>
+            <td><a href="https://yuuchin-firebase-vue.web.app/" target="blank">see</a></td>
+        </tr>
+        <tr>
+            <th>Source Code</th>
+            <td><a href="https://github.com/yuuchin/yuuchins-todo" target="blank">see</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h1>Pomodoro App</h1>
+    <img src="resources/Thumbnail-Pomodoro.PNG" alt="Pomodoro time manadement app">
+    <button class="accordion">
+        <i>Details&#9660;</i>
+    </button>
+    <table class="panel">
+        <tr>
+            <th>Type</th>
+            <td>Static</td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Personal project</td>
+        </tr>
+        <tr>
+            <th>Developers</th>
+            <td>Indivudial</td>
+        </tr>
+        <tr>
+            <th>Description </th>
+            <td>Pomodoro time management app (study-break intervals) using Vue</td>
+        </tr>
+        <tr>
+            <th>Live Preview</th>
+            <td><a href="https://yuuchin-pomodoro.netlify.app/" target="blank">see</a></td>
+        </tr>
+        <tr>
+            <th>Source Code</th>
+            <td><a href="https://github.com/yuuchin/Pomodoro" target="blank">see</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h1>Snakes and Ladders</h1>
+    <img src="resources/Thumbnail-SnakesAndLadder.jpg" alt="Snakes and Ladders Game">
+    <button class="accordion">
+        <i>Details&#9660;</i>
+    </button>
+    <table class="panel">
+        <tr>
+            <th>Type</th>
+            <td> Open-source / Game</td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Personal project</td>
+        </tr>
+        <tr>
+            <th>Developers</th>
+            <td>4 contributors to-date</td>
+        </tr>
+        <tr>
+            <th>Description </th>
+            <td>Snakes and Ladders game using vanilla HTML CSS and javascript
+
+            </td>
+        </tr>
+        <tr>
+            <th>Live Preview</th>
+            <td><a href="https://yuuchin.github.io/snakes-and-ladders/" target="blank">see</a></td>
+        </tr>
+        <tr>
+            <th>Source Code</th>
+            <td><a href="https://github.com/yuuchin/Snakes-and-Ladders" target="blank">see</a></td>
+        </tr>
+    </table>
+
+    <br>
+    <h1>Unusual News</h1>
+    <img src="resources/Thumbnail-UnusualNews.JPG" alt="Unusual News">
+    <button class="accordion">
+        <i>Details&#9660;</i>
+    </button>
+    <table class="panel">
+        <tr>
+            <th>Type</th>
+            <td>Static</td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Academic Assignment</td>
+        </tr>
+        <tr>
+            <th>Developers</th>
+            <td>Group, 2 pax</td>
+        </tr>
+        <tr>
+            <th>Description </th>
+            <td>A mock website for a news reporting company</td>
+        </tr>
+        <tr>
+            <th>Live Preview</th>
+            <td><a href="https://yuuchin.github.io/unusual-news/" target="blank">see</a></td>
+        </tr>
+        <tr>
+            <th>Source Code</th>
+            <td><a href="https://github.com/yuuchin/unusual-news" target="blank">see</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h1>Visit2Day</h1>
+    <img src="resources/Thumbnail-Visit2Day.JPG" alt="Visit2Day tourist guide website">
+    <button class="accordion">
+        <i>Details&#9660;</i>
+    </button>
+    <table class="panel">
+        <tr>
+            <th>Type</th>
+            <td>Static</td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Academic Assignment</td>
+        </tr>
+        <tr>
+            <th>Developers</th>
+            <td>Individual
+        <tr>
+            <th>Description </th>
+            <td>Visit2Day is a travelling webaite to help tourists plan their travel to Liverpool </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h1>Product Landing Page</h1>
+    <img src="resources/Thermometer.JPG" alt="Infrared Thermometer website">
+    <button class="accordion">
+        <i>Details&#9660;</i>
+    </button>
+    <table class="panel">
+        <tr>
+            <th>Type</th>
+            <td>Static</td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Personal project</td>
+        </tr>
+        <tr>
+            <th>Developers</th>
+            <td>Individual</td>
+        </tr>
+        <tr>
+            <th>Description </th>
+            <td>This project was developed with an intention to practice css; how to layout images, texts, align and
+                justify content</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/shontzu" target="blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/shontzu_" target="blank" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/shontzu/" target="blank" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/shontzu/" target="blank" class="fa fa-instagram"></a>
+            <a href="https://github.com/yuuchin" target="blank" class="fa fa-github"></a>
+        </div>
+        <div>
+            &copy; Yuu Chin Keoy | shontzuforever@gmail.com
+        </div>
+        <footer>
+</body>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</html>
