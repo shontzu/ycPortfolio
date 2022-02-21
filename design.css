@@ -7,8 +7,8 @@ html {
   background-position: center;
   color:black;
   overflow-x: hidden;
-  margin-left:10%;
-  margin-right:10%;
+  padding-left:10%;
+  padding-right:10%;
 }
 
 .shadow {
@@ -141,9 +141,6 @@ footer > div {
   display:flex;
 	justify-content:center;
   align-items: center;
-  position: fixed;
-  bottom:0;
-  width: 100%;
 	margin:5px;
 	padding:5px;
 }
@@ -154,10 +151,10 @@ footer > div {
 
 /* RESPONSIVE STYLING */
 @media only screen and (max-width: 1000px) {
-  html, img {
+html {
     max-width:100%;
-    margin-left:0;
-    margin-right:0;
+    padding-left:10%;
+    padding-right:10%
   }
 
   .fa-arrow-up {
